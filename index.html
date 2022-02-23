@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  
+</head>
+<body>
+
+  <div class="form">
+    <div class="form__left">
+      <p class="label--grey">Bill</p>
+      <input type="number" id="fldBillAmount" class="textbox textbox--dollar" value="0">
+
+      <div class="form__left--section1">
+        <p class="label--grey">Select Tip %</p>
+        <button id="button-05" class="vButton">5%</button>
+        <button id="button-10" class="vButton">10%</button>
+        <button id="button-15" class="vButton">15%</button>
+        <button id="button-25" class="vButton">25%</button>
+        <button id="button-50" class="vButton">50%</button>
+        <input type="number" id="fldPercentage" class="textbox--percentage" value="0">
+
+      </div>
+
+      <p class="label--grey label--inline">Number of People</p>
+      <p id="errorID" class="label--error label--inline">Can't be Zero</p>
+      <input type="number" id="fldNoOfPeople" class="textbox textbox--people" value="0">
+
+
+
+    </div>
+
+    <div class="form__right">
+      <div class="form__right--section1">
+        <div class="section__label">
+          <p class="label--white">Tip </p>
+          <p class="label--grey-small">/ person</p>
+        </div>
+
+        <div class="section__result">
+          <p id="tipAmount">$4.27</p>
+        </div>
+        <div class="section__label">
+          <p class="label--white">Tip Amount </p>
+          <p class="label--grey-small">/ person</p>
+        </div>
+
+        <div class="section__result">
+          <p id="total" >$32.79</p>
+        </div>
+      </div>
+
+      <div class="section__reset">
+      <button id="button-reset" class="vbutton--reset">
+        Reset
+      </button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="index.js"></script>
+  
+  
+  
+  
+
+
+
+
+  
+
+ 
+  
+</body>
+</html>
