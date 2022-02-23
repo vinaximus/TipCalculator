@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:https://github.com/vinaximus/TipCalculator.git
 - Live Site URL: https://vinaximus.github.io/TipCalculator/
 
 ## My process
